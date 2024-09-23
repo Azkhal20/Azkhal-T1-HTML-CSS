@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styling/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- Start Header -->
+    <header class="hero-container">
+      <!-- Start Nav -->
+      <nav class="nav-container">
+        <a href="#">
+          <img src="asset/logo.svg" alt="Github Pages Logo" class="logo" />
+        </a>
+        <h1 class="hero-title">Websites for you and your projects.</h1>
+        <h2 class="hero-text">
+          Hosted directly from your
+          <a href="https://github.com">GitHub repository</a>. Just edit, push,
+          and your changes are live.
+        </h2>
+        <div id="slidedshow">
+          <img src="asset/bootstrap.png" alt="" class="slide" />
+        </div>
+      </nav>
+      <!-- End Nav -->
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Main -->
+    <main>
+      <section id="tutorial" class="tutorial">
+        <h1 class="tutorial-title">
+          Ready to get started? Build your own site<br />from scratch or
+          generate one for your<br />project.
+        </h1>
+        <h2 class="tutorial-desc">
+          You get one site per GitHub account and organization,<br />and
+          unlimited project sites. Let's get started.
+        </h2>
+        <ul class="tabs">
+          <li><a href="#" class="selected">User or organization site</a></li>
+          <li><a href="#" class="no-selected">Project site</a></li>
+        </ul>
+
+        <ul id="user-site" class="tutorial-list">
+            <li id="create-repo-step" class="image-right">
+              <h4>Create a repository</h4>
+              <p>Head over to <a href="https://github.com">GitHub</a> and <a data-proofer-ignore="true" href="#">create a new public repository</a> named <em>username</em>.github.io, where <em>username</em> is your username (or organization name) on GitHub.</p>
+              <p class="details">If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.</p>
+            </li>
+            <li>
+                <h4>What git client are you using?</h4>
+                <ul class="tabs">
+                    <li><a id="option-terminal" class="selected" href="#">A terminal</a></li>
+                    <li><a id="option-desktop" class="no-selected" href="#">GitHub Dekstop</a></li>
+                    <li><a id="option-newuser" class="no-selected" href="#">I don't know</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4>Clone the repository</h4>
+                <p>Go to the folder where you want to store your project, and clone the new repository:
+                </p>
+                <img src="asset/create-repo.png" alt="">
+            </li>
+            <li>
+                <h4>Hello World</h4>
+                <p>Enter the project folder and add an index.html file:
+                </p>
+                <img src="asset/hello-world.png" alt="">
+            </li>
+            <li>
+                <h4>Push it</h4>
+                <p>Add, commit, and push your changes:
+                </p>
+                <img src="asset/push-it.png" alt="">
+            </li>
+            <li>
+                <h4>…and you're done!</h4>
+                <p>Fire up a browser and go to <b>https://<em>username</em>.github.io.</b></p>
+                <a class="check-container" href="#"><i class="check-child fa fa-check" aria-hidden="true"></i></a>
+            </li>
+  
+          </ul>
+      </section>
+
+      <section id="next-steps" class="next-steps">
+        <h1>
+          Now that you’re up and running, here are<br />a few things you should
+          know.
+        </h1>
+        <ul class="next-steps-wrapper">
+          <li class="jekyll">
+            <a class="hero-octicon" href="#">
+              <span><i class="mega-octicon fas fa-pencil"></i></span>
+            </a>
+            <h4 style="text-align: center">Blogging with Jekyll</h4>
+            <p>
+              Using Jekyll, you can blog using beautiful Markdown syntax, and
+              without having to deal with any databases. Learn how to set up
+              Jekyll.
+            </p>
+          </li>
+          <li class="costum-urls">
+            <a class="hero-octicon" href="#">
+              <span><i class="mega-octicon fa fa-link"></i></span>
+            </a>
+            <h4>Custom URLs</h4>
+            <p>
+              Want to use your own custom domain for a GitHub Pages site? Just
+              create a file named CNAME and include your URL. Read more.
+            </p>
+          </li>
+          <li class="guides">
+            <a class="hero-octicon" href="#">
+              <span><i class="mega-octicon fa fa-book-open"></i></span>
+            </a>
+            <h4>Guides</h4>
+            <p>
+              Learn how to create custom 404 pages, use submodules, and learn
+              more about GitHub Pages.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- End Main -->
+
+    <!-- Start Footer -->
+    <footer class="footer-container">
+      <ul class="footer-links-left">
+        <li><a class="github-link" href="#">© 2024 GitHub, Inc.</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Security</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <a href="#" class="footer-logo">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <ul class="footer-links-right">
+        <li><a href="#">Status</a></li>
+        <li><a href="#">API</a></li>
+        <li><a href="#">Training</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
